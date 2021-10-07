@@ -1,0 +1,246 @@
+/*
+* 
+* @author diego
+*/
+
+/*Layout
+*******************************************************************/
+body {
+    background: url(../imagens/capa.png),
+                url(../imagens/ruido.png),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;        
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+body,html, .home{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+/*navigation
+*******************************************************************/
+
+nav.nabar-transparente {
+    background: rgba(0, 0,0,0.6);   
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #9bf0e1;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.5);
+}
+
+
+/*baseboard
+*******************************************************************/
+#rotape{
+    background: #000;
+    position: relative;
+}
+
+#rotape ul{
+    list-style: none;
+}
+
+#rotape ul li{
+    margin-right: auto;
+}
+
+.icon{
+    float: right; 
+}
+
+
+
+.icon li{
+    padding: 2px;
+    float: right;
+    margin: 5px;
+}
+
+#rotape ul a{
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+#rotape ul a:hover{
+    color: #96f0e1;
+}
+
+
+
+/*button customization
+*******************************************************************/
+
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius:500px;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+   
+}
+
+.btn-roxo{
+    background: #7c26f8;
+}
+
+.btn-roxo:hover {
+    background: #6207e3;
+    color: white;
+}
+
+.btn-branco{
+    border: 2px solid white;
+
+}
+
+.btn-branco:hover{
+    background-color: white;
+    color: black;
+
+}
+
+
+/*carousel customization
+*******************************************************************/
+
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+
+/*typography customization
+*******************************************************************/
+
+h4{
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+
+}
+
+h1{
+    color: white;
+    font-weight: 900;
+    margin-bottom: 50px;
+    letter-spacing: -3px;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+ 
+
+#pagina-3 h2, #pagina-3 p{
+    color: white;
+}
+
+#pagina-3 h3{
+    color: #9bf0e1;
+}
+
+.pagina-2 h2, .pagina-2 h3{
+    color: #7c26f8;
+}
+
+
+
+/*important
+*******************************************************************/
+
+
+.rotacion{
+    
+    transform: rotate(30deg);
+}
+
+
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+
+.centraliza{
+   text-align: center;
+}
+
+
+
+.a{
+    border: solid 2px blue;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    h1{
+        font-size: 2.5em;
+    }
+
+    .btn-custom{
+        font-size: 0.9em;
+    }
+   
+
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    h1{
+        font-size: 3em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    h1{
+        font-size: 4em;
+    }
+    
+    .icon img{
+        width: 30px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h1{
+        font-size: 5em;
+    }
+
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    h1{
+        font-size: 6em;
+    }
+    
+ }
